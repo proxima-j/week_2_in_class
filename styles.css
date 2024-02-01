@@ -1,0 +1,31 @@
+/* style could be combined */
+            /* anytime there is an h1 element apply the style inside {} */
+            h1{
+                color:aqua;
+                font-size: 20px;
+            }
+            /* only one with id, but could multiple with class */
+            #red_title{
+                color:aqua;
+                font-size: 20px;
+            }
+            .large{
+                /* class */
+                color:aqua;
+                font-size: 20px;
+            }
+            .important{
+                color:aqua;
+                font-size: 20px;
+            }
+            /* only h1 element with the red has such style*/
+            h1.large{
+                color:aqua;
+                font-size: 20px;
+            }
+            #things >h1{
+                /* the direct children that is element h1 of 
+                the element that has the id */
+                color:aqua;
+                font-size: 20px;
+            }

@@ -1,0 +1,43 @@
+<!-- <button>Click me!</button> -->
+<!-- <p>hello!</p> -->
+<html>
+    <head>
+        <title>my test page</title>
+        <!-- link the two file together -->
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            /* move the style to css file */
+        </style>
+    <body>
+        <!-- content in the page -->
+        <h1 id="red_title">Hello!</h1>
+        <h1 class="large">Hello!</h1>
+        <h1 class="large important">Hello!</h1>
+        <!-- <button>Click me!</button>
+        <input></input> -->
+        <!-- <img src="https://assets.wfcdn.com/im/89769966/
+        resize-h445%5Ecompr-r85/2312/231261784/Dark+Blue+
+        Dahlia+Flower+On+Canvas+Print.jpg"></img>
+        <input type="range"></input> -->
+        <!-- <h2 style="margin: 20px;  border:5px dotted black;color:  red; background-color: rgb(50, 56, 143);">HI !</h2> -->
+        <div id="red_title">
+            <!-- group things together -->
+            <h1>a</h1>
+            <h2>b</h2>
+        </div>
+        <button class="myButton">Click me!</button>
+        <!-- everything in here is a javascript(the inline event listener) -->
+        <button onclick="handleClick()" id="myBUtton">Click</button>       
+         <script>
+            function handleClick(){
+                document.getElementById('myButton').style.backgroundColor="green";
+            }
+            // event elements
+            // let myButton =document.getElementById('myButton');
+            // query selector enable you put the css element in the script
+            let myButton =document.querySelector('.important');
+            myButton.innerHTML
+        </script>
+    </body>
+    </head>
+</html>
